@@ -10,43 +10,40 @@ const Resume = () => {
 
             <div className="resume__container grid">
                 <div className="timeline grid">
-                    <div className="timeline grid">
                         {Data.map((val, id) => {
                             if (val.category === "education") {
                                 return (
-                                    <card 
+                                    <Card 
                                     key={id} 
                                     icon={val.icon} 
                                     title={val.title} 
                                     year={val.year} 
-                                    desc={val.desc} />
-                                )
+                                    desc={val.desc} 
+                                    />
+                                );
                             }
                         })}
-                    </div>
+                </div>
 
-                    <div className="timeline grid">
+                <div className="timeline grid">
                         {Data.map((val, index) => {
                             if (val.category === "experience") {
                                 return (
-                                    <card 
+                                    <Card 
                                     key={index} 
                                     icon={val.icon} 
                                     title={val.title} 
                                     year={val.year} 
-                                    desc={val.desc} />
-                                )
+                                    desc={val.desc} 
+                                    />
+                                );
                             }
                         })}
-                    </div>
-
-
 
                 </div>
             </div>
-
         </section>
-    )
+    );
 }
 
 export default Resume
