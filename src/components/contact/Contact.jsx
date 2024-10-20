@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="contact container section" id="contact">
             <h2 className="section__title">Get in touch</h2>
 
-            <div classNAme="contact__container grid">
+            <div className="contact__container grid">
                 <div className="contact__info">
                     <h3 className="contact__title">Let's talk!</h3>
                     <p className="contact__details">Don't like forms? Send me an email. </p>
@@ -37,7 +37,7 @@ const Contact = () => {
                             id=""
                             cols="30"
                             rows="10"
-                            className="contact__fprm-input"
+                            className="contact__form-input"
                             placeholder="write your message"
                             ></textarea>
                         </div>
