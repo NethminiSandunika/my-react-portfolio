@@ -57,4 +57,16 @@
     .aside {
       left: -110px;
     }
+
+    .nav__toggle {
+        display: flex;
+    }
+
+    .nav__toggle-open {
+        left: 140px;
+    }
+
+    .show-menu {
+        left: 0;
+    }
   }
