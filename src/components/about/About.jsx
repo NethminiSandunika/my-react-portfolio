@@ -3,6 +3,7 @@ import "./about.css";
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox';
 
+
 const About = () => {
     return(
         <section className="about container section" id='about'>
@@ -18,7 +19,9 @@ const About = () => {
 						abilities, along with a solid understanding of Agile methodologies, to contribute effectively in software 
 						testing and quality assurance.</p>
 
-                        <a href="" className="btn">Download CV</a>
+                        <a href="/CV.pdf" download="My_CV.pdf" className="btn">Download CV</a>
+                        
+
                     </div>
 
 

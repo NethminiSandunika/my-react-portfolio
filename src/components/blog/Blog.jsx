@@ -1,8 +1,9 @@
 import React from 'react';
 import "./blog.css";
-import Image1 from "../../assets/blog-1.svg";
-import Image2 from "../../assets/blog-2.svg";
-import Image3 from "../../assets/blog-3.svg";
+import Image1 from "../../assets/portfolio1.png";
+import Image2 from "../../assets/burger.png";
+import Image3 from "../../assets/internX.jpg";
+import Image4 from "../../assets/internX.jpg";
 
 const Blog = () => {
     return(
@@ -12,16 +13,16 @@ const Blog = () => {
             <div className="blog__container grid">
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Review</span></a>
+                        <a href="#"><span className="blog__category">Individual</span></a>
                         <a href="#"><img src={Image1} alt=""
                         className="blog__img" /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">5 Best App Development Tool for Your Projects</h3>
+                        <h3 className="blog__title">My Portfolio</h3>
                         <div className="blog meta">
-                            <span>09 February, 2022</span>
-                            <span className="blog__dot">.</span>
-                            <span>Bolby</span>
+                            <span>A personal portfolio showcasing projects and skills built with React.</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
 
                         </div>
 
@@ -32,16 +33,16 @@ const Blog = () => {
 
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Tutorial</span></a>
+                        <a href="#"><span className="blog__category">Individual</span></a>
                         <a href="#"><img src={Image2} alt=""
                         className="blog__img" /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Common Misconceptions About Payment</h3>
+                        <h3 className="blog__title">Burger</h3>
                         <div className="blog meta">
-                            <span>07 February, 2022</span>
-                            <span className="blog__dot">.</span>
-                            <span>Bolby</span>
+                            <span>The Responsive Burger Website is a modern and interactive web design built using HTML, CSS, and JavaScript.</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
 
                         </div>
 
@@ -52,22 +53,34 @@ const Blog = () => {
 
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Business</span></a>
+                        <a href="#"><span className="blog__category">Group</span></a>
                         <a href="#"><img src={Image3} alt=""
                         className="blog__img" /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">3 Things to know about startup business</h3>
+                        <h3 className="blog__title">InternX</h3>
                         <div className="blog meta">
-                            <span>05 February, 2022</span>
-                            <span className="blog__dot">.</span>
-                            <span>Bolby</span>
-
+                            <span>InternX is a platform built using ReactJS, NodeJS, MongoDB, and Express that connects IT interns with internship opportunities in Sri Lanka.</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
                         </div>
-
-
                     </div>
+                </div>
 
+                <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href="#"><span className="blog__category">Individual</span></a>
+                        <a href="#"><img src={Image4} alt=""
+                        className="blog__img" /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">ElectroHub</h3>
+                        <div className="blog meta">
+                            <span>E-Commerce Website allows users to browse and purchase electronic products online.Built with HTML, CSS, JavaScript, Bootstrap, Node.js, Express, and MongoDB.</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
 
 

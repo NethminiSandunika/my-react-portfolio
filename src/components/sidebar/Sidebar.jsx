@@ -6,7 +6,7 @@ const Sidebar = () => {
     const [toggle, showMenu] = useState(false);
     return(
         <>
-        <aside className='aside'>
+        <aside className={toggle ? "aside show-menu" : "aside"}>
             <a href='#home' className='nav__logo'>
                 <img src={Logo} alt=""/>
             </a>
@@ -64,8 +64,8 @@ const Sidebar = () => {
             </div>
         </aside>
 
-        <div className={toggle ? "nav__toggle nav__toggle-open" :
-            "nav__togle"} onclick={() => showMenu(!toggle)}>
+        <div className={toggle ?  "nav__toggle nav__toggle-open" :
+            "nav__toggle"} onclick={() => showMenu(!toggle)}>
             <i className="icon-menu"></i>
 
         </div>

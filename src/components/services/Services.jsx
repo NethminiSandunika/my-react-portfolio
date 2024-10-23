@@ -10,21 +10,21 @@ const data = [
       image: Image1,
       title: "UI/UX design",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Creating visually appealing, user-friendly designs that prioritize functionality and modern trends.",
     },
     {
       id: 2,
       image: Image2,
       title: "Web Development",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Building dynamic, responsive websites with clean code and strong backend solutions.",
     },
     {
       id: 3,
       image: Image3,
-      title: "Photography",
+      title: "Software Testing",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+        "Ensuring high-quality software through rigorous testing processes, focusing on automation and manual testing.",
     },
   ];
   
