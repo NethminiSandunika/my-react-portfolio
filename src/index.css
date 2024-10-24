@@ -47,7 +47,7 @@
 }
 
 /*=========base========*/
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -115,6 +115,7 @@ img {
     font-weight: var(--font-bold);
     position: relative;
     margin-bottom: 3.75rem;
+    margin-top: 3.75rem;
 }
 
 .section__title::before {

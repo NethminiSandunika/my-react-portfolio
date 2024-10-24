@@ -8,23 +8,23 @@ const data = [
     {
       id: 1,
       image: Image1,
-      title: "UI/UX design",
+      title: "Programming Languages & Frameworks",
       description:
-        "Creating visually appealing, user-friendly designs that prioritize functionality and modern trends.",
+        "React, HTML, CSS, Javascript, Java",
     },
     {
       id: 2,
       image: Image2,
-      title: "Web Development",
+      title: "Databases",
       description:
-        "Building dynamic, responsive websites with clean code and strong backend solutions.",
+        "MySQL, Mongodb",
     },
     {
       id: 3,
       image: Image3,
-      title: "Software Testing",
+      title: "Tools",
       description:
-        "Ensuring high-quality software through rigorous testing processes, focusing on automation and manual testing.",
+        "VS Code, Eclipse, Selenium, JUnit, Trello, Jira, GitHub, Figma",
     },
   ];
   
@@ -32,7 +32,7 @@ const data = [
 const Services = () => {
     return(
         <section className="services container section" id="services">
-            <h2 clasName="secion__title">Services</h2>
+            <h2 className="section__title">Skills</h2>
 
             <div className="services__container grid">
                 {data.map(({id, image, title, description}) => {
