@@ -22,7 +22,7 @@ const Blog = () => {
                         <h3 className="blog__title">My Portfolio</h3>
                         <div className="blog meta">
                             <span>A personal portfolio showcasing projects and skills.</span><br></br>
-                            <span>React</span>
+                            <br></br><span>React</span>
                             <span className="blog__dot"></span>
                             <span></span>
                         </div>
@@ -39,7 +39,7 @@ const Blog = () => {
                         <h3 className="blog__title">Burger</h3>
                         <div className="blog meta">
                             <span>The Responsive Burger Website is a modern and interactive web design.</span><br></br>
-                            <span>HTML | CSS | JavaScript</span>
+                            <br></br><span>HTML | CSS | JavaScript</span>
                             <span className="blog__dot"></span>
                             <span></span>
                         </div>
@@ -56,7 +56,7 @@ const Blog = () => {
                         <h3 className="blog__title">InternX</h3>
                         <div className="blog meta">
                             <span>A platform that connects IT interns with internship opportunities.</span><br></br>
-                            <span>ReactJS | NodeJS | MongoDB | Express</span>
+                            <br></br><span>ReactJS | NodeJS | MongoDB | Express</span>
                             <span className="blog__dot"></span>
                             <span></span>
                         </div>
@@ -73,7 +73,7 @@ const Blog = () => {
                         <h3 className="blog__title">ElectroHub</h3>
                         <div className="blog meta">
                             <span>E-Commerce Website allows users to browse and purchase electronic products online.</span><br></br>
-                            <span>HTML | CSS | JavaScript | Bootstrap | Node.js | Express | MongoDB</span>
+                            <br></br><span>HTML | CSS | JavaScript | Bootstrap | Node.js | Express | MongoDB</span>
                             <span className="blog__dot"></span>
                             <span></span>
                         </div>

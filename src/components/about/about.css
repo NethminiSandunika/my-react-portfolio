@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.about__boxes {
+.about__box {
     display: flex;
     column-gap: 1.5rem;    
 }
@@ -71,13 +71,15 @@
     }
 
     .about__img {
-    width: 150px;           /* Set the width to your desired size */
-    height: 150px;          /* Set the height to your desired size */
+    width: 200px;           /* Set the width to your desired size */
+    height: 200px;          /* Set the height to your desired size */
     border-radius: 50%;     /* Makes the image circular */
     object-fit: cover;      /* Ensures the image covers the entire circle */
     border: 3px solid #dedeea; /* Optional: border around the circle */
     margin: 0 auto;         /* Centers image if needed */
     display: block; 
+   
+    
         
         
     }

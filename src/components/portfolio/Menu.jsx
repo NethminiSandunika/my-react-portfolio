@@ -4,20 +4,22 @@ import Work3 from "../../assets/codegen.jpg"
 import Work4 from "../../assets/code with wie.jpg"
 import Work5 from "../../assets/AGM.jpg"
 import Work6 from "../../assets/aiesec.jpg"
-
+import Work7 from "../../assets/hacklikeagirl.jpg"
+import Work8 from "../../assets/perlhack.jpg"
+import Work9 from "../../assets/meta.jpg"
 
 const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Hack Like a Girl",
+      title: "Hack Like a Girl - SLASSCOM",
       subtitle: "Finalist | 2022",
       category: "Design",
     },
     {
       id: 2,
       image: Work2,
-      title: "Code With WIE",
+      title: "Code With WIE - IEEE WIE SRi Lanka Section",
       subtitle: "Finalist | 2023",
       category: "Art",
     },
@@ -32,7 +34,7 @@ const Menu = [
     {
       id: 4,
       image: Work4,
-      title: "Code With WIE",
+      title: "Code With WIE - IEEE WIE SRi Lanka Section",
       subtitle: "Finalist | 2023",
       category: "Design",
     },
@@ -48,8 +50,32 @@ const Menu = [
     {
       id: 6,
       image: Work6,
-      title: "EXCON",
-      subtitle: "AIESEC in Sri Lanka | 2023",
+      title: "EXCON - AIESEC in Sri Lanka",
+      subtitle: "Expansion Conference | 2023",
+      category: "Art",
+    },
+
+    {
+      id: 7,
+      image: Work7,
+      title: "Hack Like a Girl - SLASSCOM",
+      subtitle: "Finalist | 2022",
+      category: "Art",
+    },
+
+    {
+      id: 8,
+      image: Work8,
+      title: "PerlHack 2.0 - IEEE WIE Affinity Group of Sri Lanka",
+      subtitle: "Organizing Commitee | 2024",
+      category: "Art",
+    },
+
+    {
+      id: 9,
+      image: Work9,
+      title: "META 2.0",
+      subtitle: "Innovation Club of University of Colombo in collaboration with LEO Club and Faculty of Science | Finalist | 2023",
       category: "Art",
     },
   ];

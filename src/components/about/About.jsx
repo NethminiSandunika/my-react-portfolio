@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/me.JPG"
+import Image from "../../assets/finalme.svg"
 import AboutBox from './AboutBox';
 
 

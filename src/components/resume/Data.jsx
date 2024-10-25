@@ -3,8 +3,8 @@ const Data = [
       id: 1,
       category: "education",
       icon: "icon-graduation",
-      year: "2021 - present",
-      title: "BSc (Hons) Software Engineering",
+      year: "2021 - Present",
+      title: "BSc(Hons) Software Engineering",
       desc: "Sabaragamuwa University of Sri Lanka",
     },
     {
@@ -20,15 +20,15 @@ const Data = [
       category: "education",
       icon: "icon-graduation",
       year: "2023 - present",
-      title: " University Ambassador",
+      title: " University Ambassador - SLASSCOM",
       desc: " SLASSCOM (Sri Lanka Association for Software and Services Companies)",
     },
     {
       id: 4,
       category: "experience",
       icon: "icon-briefcase",
-      year: "2024 - present",
-      title: "Treasurer",
+      year: "2024 - Present",
+      title: "Treasurer - IEEE WIE Student Branch Affinity Group of SUSL",
       desc: "IEEE WIE Student Branch Affinity Group of SUSL",
     },
     {
@@ -36,7 +36,7 @@ const Data = [
       category: "experience",
       icon: "icon-briefcase",
       year: "2022 - 2023",
-      title: "Team Lead oGT",
+      title: "Team Lead oGT - AIESEC in SUSL",
       desc: "AIESEC in SUSL",
     },
     {
@@ -44,7 +44,7 @@ const Data = [
       category: "experience",
       icon: "icon-briefcase",
       year: "2022 - 2023",
-      title: "Marketing team Member",
+      title: "Marketing team Member - AIESEC in SUSL",
       desc: "AIESEC in SUSL",
     },
   ];
