@@ -71,7 +71,14 @@
     }
 
     .about__img {
-        justify-self: center;
+    width: 150px;           /* Set the width to your desired size */
+    height: 150px;          /* Set the height to your desired size */
+    border-radius: 50%;     /* Makes the image circular */
+    object-fit: cover;      /* Ensures the image covers the entire circle */
+    border: 3px solid #dedeea; /* Optional: border around the circle */
+    margin: 0 auto;         /* Centers image if needed */
+    display: block; 
+        
         
     }
 
@@ -120,3 +127,5 @@
         grid-template-columns: 1fr;
     }
   }
+
+  

@@ -33,20 +33,20 @@ const Sidebar = () => {
                         </li>
 
                         <li className="nav__item">
+                            <a href="#blog" className="nav__link">
+                            <li className="icon-note"></li>
+                            </a>
+                        </li>
+
+                        <li className="nav__item">
                             <a href="#resume" className="nav__link">
                             <li className="icon-graduation"></li>
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="portfolio" className="nav__link">
-                            <li className="icon-layers"></li>
-                            </a>
-                        </li>
-
-                        <li className="nav__item">
-                            <a href="#blog" className="nav__link">
-                            <li className="icon-note"></li>
+                            <a href="#portfolio" className="nav__link">
+                            <li className="icon-camera"></li>
                             </a>
                         </li>
 
@@ -60,7 +60,8 @@ const Sidebar = () => {
             </nav>
 
             <div className="nav__footer">
-                <span className="copyright">&copy; 2024.</span>
+                <span className="copyright">
+                    &copy; 2024.</span>
             </div>
         </aside>
 

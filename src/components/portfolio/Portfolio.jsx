@@ -6,16 +6,16 @@ const Portfolio = () => {
     const [items, setitems] = useState(Menu);
 
     return(
-        <section className="work container section" id="work">
-            <h2 className="section__title">Recent works</h2>
+        <section className="work container section" id="portfolio">
+            <h2 className="section__title">Gallery</h2>
 
             <div className="work__filters">
-                <span className="work__item">Everything</span>
+                <span className="work__item"></span>
             </div>
 
             <div className="work__container grid">
                {items.map((elem) => {
-                const{ id, image, title, category} = elem;
+                const{ id, image, title, subtitle, category} = elem;
                 return (
                     <div className="work__card" key={id}>
                         <div className="work__thumbnail">
@@ -24,10 +24,9 @@ const Portfolio = () => {
                         </div>
 
                         <span className="work__category">{category}</span>
-                        <h3 className="work__title">{title}</h3>
-                        <a href="#" className="work__button">
-                            <i classNAme="icon-link work__button"></i>
-                        </a>
+                        <h3 className="work__title">{title}
+                        {subtitle && <span className="work__subtitle">{subtitle}</span>} {/* Subtitle here */}
+                        </h3>
 
                     </div>
                 )

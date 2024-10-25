@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg"
+import Image from "../../assets/me.JPG"
 import AboutBox from './AboutBox';
 
 
@@ -10,14 +10,13 @@ const About = () => {
             <h2 className="section__title">About Me</h2>
 
             <div className="about__container grid">
-                <img src={Image} alt="" className="about__img" />
+                <img src={Image} alt="" className="about__img" 
+                style={{ width: "200px", height: "200px", borderRadius: "50%", objectFit: "cover" }} 
+                />
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">I am a dedicated third-year Software Engineering undergraduate, passionate about becoming a Quality 
-						Assurance Engineer. I am committed to utilizing my attention to detail, problem-solving skills, and teamwork 
-						abilities, along with a solid understanding of Agile methodologies, to contribute effectively in software 
-						testing and quality assurance.</p>
+                        <p className="about__description">I am a dedicated third-year Software Engineering undergraduate with a strong passion for Quality Assurance. With a focus on software testing and reliability, I leverage my attention to detail, problem-solving skills, and teamwork abilities to contribute effectively to high-quality software development. As a volunteer with IEEE, I am actively involved in fostering innovation and professional growth within the tech community, committed to promoting best practices in software quality and information security.</p>
 
                         <a href="/CV.pdf" download="My_CV.pdf" className="btn">Download CV</a>
                         

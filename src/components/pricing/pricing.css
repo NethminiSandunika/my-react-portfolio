@@ -1,0 +1,72 @@
+/* skills.css */
+.section {
+    padding: 2rem 0;
+}
+
+.section__title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Space between the columns */
+    margin-top: 2rem;
+}
+
+.skills__category {
+    background-color: var(--container-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.skills__title {
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.skills__grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skills__logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 30%;
+    background-color: var(--body-color);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+
+.skills__logo:hover {
+    transform: scale(1.1);
+}
+
+/* Variables for colors */
+:root {
+    --first-color: hsl(353, 100%, 65%);
+    --title-color: hsl(244, 24%, 26%);
+    --text-color: hsl(244, 16%, 43%);
+    --body-color: hsl(258, 60%, 98%);
+    --container-color: #fff;
+    --border-radius: 8px;
+    --shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}

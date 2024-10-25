@@ -11,6 +11,7 @@ const Blog = () => {
             <h2 className="section__title">Latest Projects</h2>
 
             <div className="blog__container grid">
+                
                 <div className="blog__card">
                     <div className="blog__thumb">
                         <a href="#"><span className="blog__category">Individual</span></a>
@@ -24,12 +25,8 @@ const Blog = () => {
                             <span>React</span>
                             <span className="blog__dot"></span>
                             <span></span>
-
                         </div>
-
-
                     </div>
-
                 </div>
 
                 <div className="blog__card">
@@ -45,12 +42,8 @@ const Blog = () => {
                             <span>HTML | CSS | JavaScript</span>
                             <span className="blog__dot"></span>
                             <span></span>
-
                         </div>
-
-
                     </div>
-
                 </div>
 
                 <div className="blog__card">
@@ -62,8 +55,25 @@ const Blog = () => {
                     <div className="blog__details">
                         <h3 className="blog__title">InternX</h3>
                         <div className="blog meta">
-                            <span>A platform that connects IT interns with internship opportunities in Sri Lanka.</span><br></br>
+                            <span>A platform that connects IT interns with internship opportunities.</span><br></br>
                             <span>ReactJS | NodeJS | MongoDB | Express</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href="#"><span className="blog__category">Individual</span></a>
+                        <a href="#"><img src={Image4} alt=""
+                        className="blog__img" /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">ElectroHub</h3>
+                        <div className="blog meta">
+                            <span>E-Commerce Website allows users to browse and purchase electronic products online.</span><br></br>
+                            <span>HTML | CSS | JavaScript | Bootstrap | Node.js | Express | MongoDB</span>
                             <span className="blog__dot"></span>
                             <span></span>
                         </div>
