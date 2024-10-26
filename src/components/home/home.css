@@ -54,6 +54,7 @@
 
 .home__scroll-name {
     font-size: var(--small-font-size);
+    color: hsl(43, 100%, 68%);;
     
 }
 

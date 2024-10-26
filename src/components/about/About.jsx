@@ -16,7 +16,7 @@ const About = () => {
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">I am a dedicated third-year Software Engineering undergraduate with a strong passion for Quality Assurance. With a focus on software testing and reliability, I leverage my attention to detail, problem-solving skills, and teamwork abilities to contribute effectively to high-quality software development. As a volunteer with IEEE, I am actively involved in fostering innovation and professional growth within the tech community, committed to promoting best practices in software quality and information security.</p>
+                        <p className="about__description">I am a dedicated third-year Software Engineering undergraduate passionate about building innovative, user-centric software solutions. With hands-on experience in full-stack development and strong problem-solving abilities, I bring adaptability and a collaborative approach to every project. My goal is to develop scalable applications that enhance user experience and deliver real value. As an active IEEE volunteer, I am committed to fostering innovation and promoting best practices in software development and information security.</p>
 
                         <a href="/CV.pdf" download="My_CV.pdf" className="btn">Download CV</a>
                         

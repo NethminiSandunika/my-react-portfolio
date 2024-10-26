@@ -36,10 +36,10 @@
 
 /* Dark mode colors */
 .dark-mode {
-    --first-color: hsl(353, 100%, 80%);
+    --first-color: hsl(353, 100%, 65%);
     --title-color: hsl(0, 0%, 90%);
     --text-color: hsl(0, 0%, 80%);
-    --body-color: hsl(0, 0%, 10%);
+    --body-color: hsl(0, 0%, 0%);
     --container-color: hsl(0, 0%, 15%);
 }
 
@@ -98,6 +98,7 @@ button {
     cursor: pointer;
     border: none;
     outline: none;
+    color: var(--first-color);
 }
 
 img {
