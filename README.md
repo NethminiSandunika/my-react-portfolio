@@ -39,26 +39,26 @@ I am proficient in the following technologies:
 Here are some screenshots of my projects:
 
 1. **Home**
-   ![Home](./portfolio/src/assets/screenshots/home.png)
+   ![Home](./src/assets/screenshots/home.png)
 
 2. **About me**
-   ![About me](./path-to-your-screenshot2.png)
+   ![About me](./src/assets/screenshots/about.png)
 
 3. **Skills**
-   ![Skills](./path-to-your-screenshot3.png)
+   ![Skills](./src/assets/screenshots/skills.png)
 
 4. **Projects**
-   ![Projects](./path-to-your-screenshot3.png)
+   ![Projects](./src/assets/screenshots/projects.png)
 
 5. **My journey**
-   ![My journey](./path-to-your-screenshot3.png)
+   ![My journey](./src/assets/screenshots/journey.png)
 
 6. **Gallery**
-   ![Gallery](./path-to-your-screenshot3.png)
+   ![Gallery](./src/assets/screenshots/gallery.png)
 
 7. **Contact me**
-   ![Contact me](./path-to-your-screenshot3.png)
+   ![Contact me](./src/assets/screenshots/contact.png)
 
 8. **DarkMode**
-   ![Dark Mode](./path-to-your-screenshot3.png)
+   ![Dark Mode](./src/assets/screenshots/darkmode.png)
 
