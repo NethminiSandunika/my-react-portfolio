@@ -39,7 +39,7 @@ I am proficient in the following technologies:
 Here are some screenshots of my projects:
 
 1. **Home**
-   ![Home](C:\Users\VISION\Desktop\portfolio\src\assets\screenshots\home.png)
+   ![Home](./portfolio/src/assets/screenshots/home.png)
 
 2. **About me**
    ![About me](./path-to-your-screenshot2.png)
