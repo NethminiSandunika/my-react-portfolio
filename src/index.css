@@ -34,6 +34,15 @@
 
 }
 
+/* Dark mode colors */
+.dark-mode {
+    --first-color: hsl(353, 100%, 80%);
+    --title-color: hsl(0, 0%, 90%);
+    --text-color: hsl(0, 0%, 80%);
+    --body-color: hsl(0, 0%, 10%);
+    --container-color: hsl(0, 0%, 15%);
+}
+
 /* responsive typography*/
 @media screen and (max-width:1024px) {
     :root{
@@ -153,3 +162,27 @@ img {
     animation: button-push 0.3s linear 1;
 }
 
+/* Dark mode toggle icon */
+.dark-mode-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 100%; /* Makes the button round like an icon */
+    background-color: var(--container-color);
+    color: black; /* Sets the icon color to black */
+    cursor: pointer;
+    font-size: 1.25rem; /* Adjust icon size as needed */
+    transition: background-color 0.3s ease;
+    box-shadow: var(--shadow);
+
+}
+
+.dark-mode .dark-mode-toggle {
+    color: #f1f1f1;
+}
+
+.dark-mode-toggle:hover {
+    background-color: hsl(353, 100%, 75%); /* Optional hover color */
+}
