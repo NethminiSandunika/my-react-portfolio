@@ -39,7 +39,7 @@ I am proficient in the following technologies:
 Here are some screenshots of my projects:
 
 1. **Home**
-   ![Home](./src/assets/screenshots/home.png)
+   ![Home](./README.md/)
 
 2. **About me**
    ![About me](./src/assets/screenshots/about.png)
