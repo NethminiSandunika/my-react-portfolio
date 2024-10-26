@@ -60,5 +60,5 @@ Here are some screenshots of my projects:
    ![Contact me](./src/assets/screenshots/contact.png)
 
 8. **DarkMode**
-   ![Dark Mode](./src/assets/screenshots/darkmode.png)
+   ![Dark Mode](./path-to-your-screenshot3.png)
 
