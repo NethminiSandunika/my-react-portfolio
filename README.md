@@ -39,7 +39,7 @@ I am proficient in the following technologies:
 Here are some screenshots of my projects:
 
 1. **Home**
-   ![Home](./path-to-your-screenshot1.png)
+   ![Home](C:\Users\VISION\Desktop\portfolio\src\assets\screenshots\home.png)
 
 2. **About me**
    ![About me](./path-to-your-screenshot2.png)
@@ -47,15 +47,18 @@ Here are some screenshots of my projects:
 3. **Skills**
    ![Skills](./path-to-your-screenshot3.png)
 
-3. **Projects**
+4. **Projects**
    ![Projects](./path-to-your-screenshot3.png)
 
-3. **My journey**
+5. **My journey**
    ![My journey](./path-to-your-screenshot3.png)
 
-3. **Gallery**
+6. **Gallery**
    ![Gallery](./path-to-your-screenshot3.png)
 
-3. **Contact me**
+7. **Contact me**
    ![Contact me](./path-to-your-screenshot3.png)
+
+8. **DarkMode**
+   ![Dark Mode](./path-to-your-screenshot3.png)
 
