@@ -1,6 +1,6 @@
 import React from 'react';
 import "./blog.css";
-import Image1 from "../../assets/portfolio1.png";
+import Image1 from "../../assets/screenshots/home.png";
 import Image2 from "../../assets/burger.png";
 import Image3 from "../../assets/internX.jpg";
 import Image4 from "../../assets/electerohub.png";
