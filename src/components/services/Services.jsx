@@ -10,7 +10,7 @@ const data = [
       image: Image1,
       title: "Programming Languages & Frameworks",
       description:
-        "React, HTML, CSS, Javascript, Java",
+        "HTML, CSS, JavaScript, Java, React.js, Node.js, Express.js,TypeScript, GraphQL",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const data = [
       image: Image3,
       title: "Tools",
       description:
-        "VS Code, Eclipse, Selenium, JUnit, Trello, Jira, GitHub, Figma",
+        " Figma, Sass, VS Code, Eclipse, AWS, Postman, Selenium, JUnit, Git, Trello, Agile, Blender",
     },
   ];
   

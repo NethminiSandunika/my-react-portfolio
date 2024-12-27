@@ -44,7 +44,7 @@ const Data = [
       category: "experience",
       icon: "icon-briefcase",
       year: "2022 - 2023",
-      title: "Marketing team Member - AIESEC in SUSL",
+      title: "Graphic Design Team member - AIESEC in SUSL",
       desc: "AIESEC in SUSL",
     },
   ];
