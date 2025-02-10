@@ -5,6 +5,7 @@ import Image2 from "../../assets/burger.png";
 import Image3 from "../../assets/internX.jpg";
 import Image4 from "../../assets/lms.png";
 import Image5 from "../../assets/electerohub.png";
+import Image6 from "../../assets/todo.png";
 
 
 
@@ -76,6 +77,23 @@ const Blog = () => {
                         <h3 className="blog__title">Karagasthalawa LMS</h3>
                         <div className="blog meta">
                             <span>Library Management System for Karagastalawa Maha Vidyalaya.</span><br></br>
+                            <br></br><span>ReactJS | NodeJS | MongoDB | Express</span>
+                            <span className="blog__dot"></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="blog__card">
+                    <div className="blog__thumb">
+                        <a href="#"><span className="blog__category">Individual</span></a>
+                        <a href="#"><img src={Image6} alt=""
+                        className="blog__img" /></a>
+                    </div>
+                    <div className="blog__details">
+                        <h3 className="blog__title">OrganizeIt</h3>
+                        <div className="blog meta">
+                            <span>To-do list application for efficient task organization</span><br></br>
                             <br></br><span>ReactJS | NodeJS | MongoDB | Express</span>
                             <span className="blog__dot"></span>
                             <span></span>
